@@ -123,7 +123,7 @@ public class Model {
 			
 			double delta=pesoUscente-pesoEntrante;
 			
-			if(delta> maxDelta) {
+			if(delta > maxDelta) {
 				best=p;
 				maxDelta=delta;
 			}
